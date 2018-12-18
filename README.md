@@ -1,6 +1,6 @@
 ## See it in action! [Click Here](https://marvincyan.github.io/my-resume-react-redux/)
 
-## Create react project
+## Create React Project
 #### Documentation: [https://reactjs.org/docs/create-a-new-react-app.html](https://reactjs.org/docs/create-a-new-react-app.html)
 
 1. npx create-react-app [project]
@@ -21,7 +21,7 @@
 3. Deploy project to GitHub Pages [follow instructions below]
 4. Go to Settings in GitHub and change GitHub Pages Source to 'gh-pages-branch' 
 
-## Deploy ReactJS project to GitHub Pages:
+## Deploy ReactJS Project to GitHub Pages:
 #### Documentation: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 1. Create new repository
