@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800');
+
+body { font-family: 'Raleway', sans-serif; }
+.btn { border-radius: 0; }
+.btn-outline-light.focus, .btn-outline-light:focus {
+  box-shadow: none !important;
+}
+.clearfix { clear: both; height: 0; line-height: 0; }
+
+#background { height: 100%; width: 100%; position: fixed; top: 0; left: 0; background: #000 url("images/bg.jpg") no-repeat; background-size: cover; background-position: center center;}
+
+header { position: fixed; top: 0; left: 0; bottom: 0; width: 33.333333%; background-color: rgba(0,0,0,0.85); overflow: hidden; border-right: 20px solid rgba(255,255,255,0.8); }
+header .vCard { margin-top: 45%; }
+header hr { border-color: rgba(255,255,255,0.5); }
+
+.col-right { width: 100%; padding-left: 33.333333%; }
+#hi { font-size: 16px; line-height: 16px; font-weight: 400; color: #fefefe;}
+#fullName { font-size: 40px; font-weight: 800; line-height: 40px; color: #fefefe; text-transform: uppercase; }
+#jobTitle { font-size: 20px; font-weight: 700; line-height: 20px; color: #fefefe; text-transform: uppercase; }
+#objTitle { margin: 20px 0 10px; font-size: 20px; font-weight: 700; line-height: 20px; color: #ccc; }
+#objective { font-size: 16px; font-weight: 400; line-height: 20px; color: #ccc;}
+#hireMe { margin: 20px 0; }
+#download a { float: right; font-size: 16px; color: #999; }
+#sectionTitle { font-size: 40px; font-weight: 800; line-height: 150px; }
+#navContainer { display: block; padding-left: 20px; width: 100%; }
+#nav { float: right; text-align: right; margin-top: 50px; margin-right: 20px; }
+#nav svg { position: absolute; top: 15px; left: 15px; }
+#nav .btn { position: relative; width: 100px; height: 100px; margin-left: 5px; font-size: 12px; }
+#nav .btn .title { position: absolute; bottom: 13px; text-transform: uppercase; }
+#nav .btn .plus { position: absolute; bottom: 0px; right: 5px; font-size: 30px; }
+.collapseContentRow { padding-left: 30px; margin-top: 30px; width: 100%; }
+#collapseContent1 #contentContainer { background-color: rgba(255,255,255,0.9); padding: 20px 40px; }
+#collapseContent1 #contentContainer > .title { font-size: 20px; font-weight: bold; }
+#contactTitle { font-size: 40px; font-weight: 700; color: #fefefe; line-height: 40px; }
+#bringTitle { margin-top: 20px; font-size: 20px; font-weight: 700; color: #fefefe;line-height: 20px; }
+#bringList { list-style-type: none; margin: 20px 0; padding: 0;font-size: 16px; font-weight: 400; line-height: 20px; color: #ccc; }
+#aboutMeList { list-style-type: none; margin: 0 0 0 20px; padding: 0; }
+#aboutMeList > li span { font-weight: 600; }
+.contactBtn { margin-top: 10px; }
+.contactForm { margin-top: 20px; margin-bottom: 20px; }
+.form-control { width: 100%; min-height: 41px; padding-top: 10px; padding-bottom: 10px; color: #999999; border: 1px solid #aaa; border-radius: 0; font-size: 13px; text-indent: 15px; resize: none; }
+
+@media (min-width: 577px) {
+  header { height: 100% !important; }
+  #objTitle, #objective { display: block !important; }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  header { width: 50% !important; }
+  .col-right { padding-left: 50% !important; }
+}
